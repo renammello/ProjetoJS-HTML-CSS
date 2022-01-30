@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title> Teste Pratico </title>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" width="300px" height="125px">
+                </div>
+            </div>
+            </div>
+
+        </main>
+    </header>
+    <div class="header-2">
+        <div class="header-2">
+            <a class="index" href="index.html">Home</a>
+            <a class="pag2" href="pag002.html">Pessoal</a>
+            <a class="pag3" href="pag003.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="contato">
+        <form name="myForm" action="pag003.html" method="POST">
+            <h1>Formulario</h1>
+            <div class="nome">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nomeid" placeholder="nome" required="required" name="Nome"/>
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label><br>
+                <input type="email" id="emailid" placeholder="email" name="email" value=""><br><br>
+            </div>
+
+            <div class="mensagem">
+                <textarea name="mensagem" id="mensagemid" placeholder="Mensagem" cols="60" rows="10"
+                    style="margin: 0px; height: 169px; width: 406px;"></textarea>
+            </div>
+
+            <div class="botao">
+                <input type="submit" value="enviar" onclick="return enviar()">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

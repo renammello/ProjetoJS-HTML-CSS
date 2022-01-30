@@ -1,0 +1,56 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+}
+.menu-principal {
+width: 100%;
+background-color: #252323;
+height: 200px;
+}
+.imagemEntrada{
+    padding-top: 300px;
+    padding: 125px;
+    border: 35px solid #2a472b;
+
+}
+main {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo {
+text-align: center;
+padding-top:35px;
+}
+.header-2{
+text-align: center;
+margin: 50px;
+}
+.name{
+    margin: 50px;
+}
+.index{
+    border: 2px solid rgb(75, 4, 75);
+    border-radius: 5px;
+    margin-right: 25px ;
+}
+.pag2{
+    border: 2px solid rgb(75, 4, 75);
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.pag3{
+    border: 2px solid rgb(75, 4, 75);
+    border-radius: 5px;
+}
+.contato{
+    text-align: center;
+    margin-right: 10px ;
+    padding: 60px;
+    border: 60px solid #3b6b3d;
+}
+.name{
+    padding: 70px;
+    border: 55px solid #294b2a;
+}
